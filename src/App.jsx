@@ -1,8 +1,8 @@
 import "./App.css";
-import SendEmail from "./components/SendEmail";
+import AlarmEmail from "./components/AlarmEmail";
 
 const App = () => {
-  return <SendEmail />;
+  return <AlarmEmail />;
 };
 
 export default App;

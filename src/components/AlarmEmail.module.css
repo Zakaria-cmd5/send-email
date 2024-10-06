@@ -1,0 +1,73 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8; /* Soft background color */
+  }
+  
+  .form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .inputLabel {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333333;
+  }
+  
+  .input {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333333;
+    transition: border 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #007bff; /* Button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  input[disabled] {
+    background-color: #f8f9fa;
+    color: #999999;
+  }
+  
+  @media (max-width: 480px) {
+    .form {
+      padding: 20px;
+    }
+  
+    .inputLabel,
+    .input,
+    button {
+      font-size: 0.9rem;
+    }
+  }
+  
