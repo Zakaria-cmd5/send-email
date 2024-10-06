@@ -52,6 +52,8 @@ const AlarmEmail = () => {
       })
       .catch((error) => {
         console.log(error);
+        setEmail("");
+        setAlarmTime("");
       });
   };
 
