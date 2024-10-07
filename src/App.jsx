@@ -1,8 +1,8 @@
 import "./App.css";
-import AlarmEmail from "./components/AlarmEmail";
+import TimerCounter from "./components/TimerCounter";
 
 const App = () => {
-  return <AlarmEmail />;
+  return <TimerCounter />;
 };
 
 export default App;
